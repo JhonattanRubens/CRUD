@@ -1,0 +1,34 @@
+form.formOut {
+  width: 90%;
+  margin: 2px 5%;
+  float: left;
+}
+form.formOut input[type='text'],form.formOut input[type='number']{
+  padding: 8px 8px;
+  margin: 0px 4px;
+  border: 1px solid #ddd;
+  font-weight: bold;
+  background-color: #FAFAFA;
+  text-align: center;
+}
+
+/*BOTOES*/
+form.formOut input[type='submit']{
+  padding: 8px;
+  margin-left: 8px;
+  border: 1px transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 4px;
+}
+form.formOut input[type='submit']:hover{
+  cursor: pointer;
+}
+form.formOut input[name='editProduto']{
+  background-color: #3CB371;
+  color: #F6F6F6;
+}
+form.formOut input[name='rmProduto']{
+  background-color: #DC143C;
+  color: #F6F6F6;
+}
